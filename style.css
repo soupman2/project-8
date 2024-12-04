@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:40px;
+
+}
+h2{
+    font-family:monospace;
+    font-weight: 100;
+}
+
+#grad1{
+    height: 100px;
+    background-color: rgb(174, 255, 0);
+    background-image: linear-gradient(to bottom left,red, yellow, orange, goldenrod, orangered, red);
+
+
+
+}
+
+@keyframes glowy {
+    10%{background-color: red;}
+    20%{background-color: orangered;}
+    30%{background-color: orange;}
+    40%{background-color:yellow;}
+    50%{background-color: yellowgreen;}
+    60%{background-color:green;}
+    70%{background-color:blue;}
+    80%{background-color: blueviolet;}
+    90%{background-color: violet;}
+    95%{background-color: pink;}
+    100%{background-color: red;}
+}
+
+.glow{
+    animation-name: glowy;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+#copyright{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
